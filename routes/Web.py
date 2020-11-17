@@ -21,4 +21,4 @@ def complete(index):
 
 @web.route('/update/<int:index>', methods=['POST'])
 def update(index):
-	return TodoControler.update(index)
+	return TodoController.update(index)
